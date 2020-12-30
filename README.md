@@ -31,7 +31,7 @@ $ catkin_make
 
 ```bash
 cd ~/catkin_ws/src/myCobotRos
-python3 scripts/test.py
+python scripts/test.py #python -m pip --user install pyserial
 ```
 
 If the myCobot color change to red, it's mean the API is working normally.
@@ -94,19 +94,19 @@ rosrun rviz rviz
 a) For display
 
 ```bash
-rosrun myCobotRos display.py
+rosrun myCobotROS display.py
 ```
 
 b) For slider bar.
 
 ```bash
-rosrun myCobotRos control_slider.py
+rosrun myCobotROS control_slider.py
 ```
 
 c) For marker control
 
 ```bash
-rosrun myCobots control_marker.py
+rosrun myCobotROS control_marker.py
 ```
 
 ## Q & A
